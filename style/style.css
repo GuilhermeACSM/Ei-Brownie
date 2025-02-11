@@ -7,6 +7,8 @@
 
 body {
     background-image: url("../img/7.png");
+    height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -132,4 +134,3 @@ button:hover {
 .linkCadastro a:hover, .linkRSenha a:hover {
     text-decoration: underline;
 }
-
