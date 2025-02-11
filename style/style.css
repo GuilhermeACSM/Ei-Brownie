@@ -9,7 +9,6 @@ body {
     background-color: black;
     background-image: url("../img/7.png");
     height: 80vh;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,7 +129,7 @@ button:hover {
 .linkCadastro a, .linkRSenha a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* Aumentei o tamanho da fonte dos links */
+    font-size: 22px; /* Aumentei o tamanho da fonte dos links */
 }
 
 .linkCadastro a:hover, .linkRSenha a:hover {
