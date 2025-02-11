@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body {
@@ -44,12 +46,12 @@ body {
 }
 
 .user_welcome_p p {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
 }
 
 .user_welcome_p h4 {
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
 }
 
@@ -134,4 +136,42 @@ button:hover {
 
 .linkCadastro a:hover, .linkRSenha a:hover {
     text-decoration: underline;
+}
+
+
+
+/*-------- PÁG HOME --------*/
+.main_home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title-home {
+    display: flex;
+    justify-content: center;
+}
+
+.title-home img {
+
+}
+
+.main_home img{
+    width: 150px;
+    margin-right: 15px;
+}
+
+.main_home h1{
+    color: black;
+    font-size: 8em;
+}
+
+.div-setores {
+    display: flex;
+    justify-content: center;
+}
+
+.div-setores button {
+    width: 100%;
 }
