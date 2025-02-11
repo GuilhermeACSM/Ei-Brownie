@@ -148,14 +148,16 @@ button:hover {
     flex-direction: column;
 }
 
+.main_home .card {
+    width: 90%;
+}
+
 .title-home {
     display: flex;
     justify-content: center;
 }
 
-.title-home img {
 
-}
 
 .main_home img{
     width: 150px;
@@ -169,9 +171,18 @@ button:hover {
 
 .div-setores {
     display: flex;
+    gap: 5px;
     justify-content: center;
 }
 
+.div-setores img {
+    width: 100px;
+    height: 100px;
+}
+
 .div-setores button {
+    font-size: 2em;
+    background-color: white;
+    height: 250%;
     width: 100%;
 }
