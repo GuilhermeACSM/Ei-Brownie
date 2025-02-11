@@ -66,7 +66,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
     color: white;
-    padding: 40px; /* Aumentei o padding para dar mais espaço interno */
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     width: 100%;
@@ -74,9 +74,9 @@ body {
 }
 
 .card-header {
-    font-size: 32px; /* Aumentei o tamanho da fonte do cabeçalho */
+    font-size: 32px; 
     font-weight: bold;
-    margin-bottom: 20px; /* Adicionei margem inferior para separar do conteúdo */
+    margin-bottom: 20px; 
 }
 
 .card-body img {
@@ -89,10 +89,10 @@ body {
     background: rgba(255, 255, 255, 0.2);
     border: none;
     color: white;
-    padding: 16px; /* Aumentei o padding dos inputs */
-    font-size: 20px; /* Aumentei o tamanho da fonte dos inputs */
-    margin-bottom: 20px; /* Adicionei margem inferior para separar os inputs */
-    width: 100%; /* Garantir que o input ocupe toda a largura disponível */
+    padding: 16px;
+    font-size: 20px;
+    margin-bottom: 20px; 
+    width: 100%;
 }
 
 .form-control::placeholder {
@@ -109,12 +109,12 @@ button {
     background-color: #FAD129;
     border: none;
     color: black;
-    padding: 16px; /* Aumentei o padding do botão */
+    padding: 16px;
     border-radius: 5px;
     width: 100%;
     cursor: pointer;
-    font-size: 20px; /* Aumentei o tamanho da fonte do botão */
-    margin-top: 20px; /* Adicionei margem superior para separar do último input */
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -123,13 +123,13 @@ button:hover {
 
 .linkCadastro,
 .linkRSenha {
-    margin-top: 20px; /* Aumentei a margem superior dos links */
+    margin-top: 20px;
 }
 
 .linkCadastro a, .linkRSenha a {
     color: white;
     text-decoration: none;
-    font-size: 22px; /* Aumentei o tamanho da fonte dos links */
+    font-size: 22px; 
 }
 
 .linkCadastro a:hover, .linkRSenha a:hover {
