@@ -1,63 +1,92 @@
-
+/* Reset de margens e paddings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-image: url("../img/7.png");
+    background-size: cover;
+    background-position: center;
 }
 
+/* Navbar Responsiva */
 .navbar {
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    padding: 0px;
+    padding: 10px;
 }
 
 .navbar img {
-    width: 60px;
-    height: 60px;
-    margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
+.user_welcome {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user_welcome_p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+}
+
+.user_welcome_p p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.user_welcome_p h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Card Login Responsivo */
 .card-login {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-/* Estilização do card */
 .card {
-    background-color: rgba(0, 0, 0, 0.685);
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
     color: white;
     padding: 20px;
-    padding-top: 10px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    width: 350px;
+    width: 90%;
+    max-width: 350px;
     text-align: center;
 }
 
-/* Estilização do cabeçalho do card */
 .card-header {
-    /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);*/
     font-size: 24px;
     font-weight: bold;
-    padding-top: 0px;
 }
 
-/* Imagem do usuário */
 .card-body img {
-    width: 200px;
-    height: 200px;
-    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
 }
 
-/* Inputs do formulário */
 .form-control {
     background: rgba(255, 255, 255, 0.2);
     border: none;
     color: white;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .form-control::placeholder {
@@ -70,44 +99,79 @@ body {
     box-shadow: none;
 }
 
-/* Botão de login */
 button {
     background-color: #FAD129;
     border: none;
     color: black;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    font-size: 16px;
 }
 
 button:hover {
     background-color: #f7d346;
 }
 
-/* Link de cadastro */
-.linkCadastro {
-    margin-top: 25px;
+.linkCadastro,
+.linkRSenha {
+    margin-top: 15px;
 }
 
-.linkCadastro a {
+.linkCadastro a, .linkRSenha a {
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
 
-.linkCadastro a:hover {
+.linkCadastro a:hover, .linkRSenha a:hover {
     text-decoration: underline;
 }
 
-/* Link de Recuperação de Senha */
-.linkRSenha a{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .user_welcome {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 95%;
+    }
 }
 
-.linkRSenha a:hover {
-    text-decoration: underline;
+@media (max-width: 480px) {
+    .navbar img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user_welcome_p p {
+        font-size: 10px;
+    }
+
+    .user_welcome_p h4 {
+        font-size: 14px;
+    }
+
+    .card-body img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
