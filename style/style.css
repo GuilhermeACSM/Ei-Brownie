@@ -78,7 +78,7 @@ body {
   width: 90%; 
   max-width: 1500px; 
   padding: 40px;
-  height: 53vh;
+  height: 97%;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   color: white;
@@ -297,3 +297,75 @@ button:hover {
 }
 
 /* -------- PÁG PLANEJAMENTO --------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- PÁG CADASTRO --------- */
+.card_cadastro {
+  margin: auto;
+  margin-top: 70px;
+  width: 90%; 
+  max-width: 1500px; 
+  padding: 40px;
+  height: 97%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.body_cadastro {
+  background-image: url('../img/4.png');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Personalização da seta do select */
+.form-group select {
+  background-image: url('../img/seta.png');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 35px;
+}
+
+/* Estilização das opções */
+.form-group select option {
+  color: rgb(0, 0, 0);
+  font-size: 16px
+}
+
+.ft_cadastro {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  margin-top: auto;
+}
+
+.ft_cadastro {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
+
+.ft_cadastro img{
+  width: 400px;
+}
