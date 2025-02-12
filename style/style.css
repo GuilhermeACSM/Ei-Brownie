@@ -154,6 +154,14 @@ button:hover {
   background-color: #f7d346;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 150px;
+  margin-top: 30px;
+}
+
 .linkCadastro,
 .linkRSenha {
   margin-top: 20px;
@@ -189,17 +197,19 @@ button:hover {
 .title-home {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .main_home img {
-  width: 200px;
+  width: 120px;
+  height: 120px;
   margin-right: 20px;
 }
 
 .main_home h1 {
   color: black;
-  font-size: 8em;
+  font-size: 7em;
 }
 
 .div-setores {
@@ -230,12 +240,13 @@ button:hover {
 }
 
 .title_pagsSetores img {
-  width: 15%;
+  width: 100px;
 }
 
 .title_pagsSetores h1 {
   color: black;
-  font-size: 7em;
+  font-size: 5em;
+  margin-left: 20px;
 }
 
 /* Estilizando o menu lateral */
