@@ -223,17 +223,19 @@ button:hover {
 /* -------- PÁGS SETORES --------- */
 
 .title_pagsSetores {
+  text-align: center;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .title_pagsSetores img {
-  width: 20%;
+  width: 15%;
 }
 
 .title_pagsSetores h1 {
   color: black;
-  font-size: 8em;
+  font-size: 7em;
 }
 
 /* Estilizando o menu lateral */
@@ -257,6 +259,7 @@ button:hover {
 .menu ul li {
   padding: 15px;
   text-align: center;
+  font-size: 2.3em;
   border-bottom: 1px solid rgb(80, 80, 80);
 }
 
