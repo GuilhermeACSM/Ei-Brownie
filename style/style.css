@@ -122,7 +122,7 @@ body {
   color: white;
   padding: 20px;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   width: 100%;
 }
 
@@ -320,11 +320,10 @@ button:hover {
 
 .card_cadastro {
   margin: auto;
-  margin-top: 70px;
   width: 90%; 
   max-width: 1500px; 
   padding: 40px;
-  height: 97%;
+  margin-top: 70px;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   color: white;
@@ -335,20 +334,29 @@ button:hover {
 
 .body_cadastro {
   background-image: url('../img/4.png');
+  height: 80vh;
+  background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-position: center;
+  background-color: black;
+}
+
+.card-body img{
+  margin-bottom: 20px;
 }
 
 /* Personalização da seta do select */
 .form-group select {
+  color: rgba(255, 255, 255, 0.7);
   background-image: url('../img/seta.png');
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 16px;
   padding-right: 35px;
+}
+
+.form-group select:hover{
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Estilização das opções */
@@ -357,21 +365,3 @@ button:hover {
   font-size: 16px
 }
 
-.ft_cadastro {
-  width: 100%;
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  margin-top: auto;
-}
-
-.ft_cadastro {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-}
-
-.ft_cadastro img{
-  margin-top: 450px;
-  width: 400px;
-}
